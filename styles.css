@@ -1,0 +1,29 @@
+* {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+div.main {
+    position: absolute;
+    top: 25%;
+}
+
+div h1 {
+    letter-spacing: 25px;
+}
+
+.main img {
+    filter: grayscale(100);
+}
+
+.main.motto {}
