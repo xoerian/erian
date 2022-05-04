@@ -2,7 +2,6 @@
     font-family: 'Alfa Slab One', cursive;
     background-color: black;
     color: white;
-    cursor: pointer;
 }
 
 body {
@@ -19,6 +18,8 @@ div.main {
 }
 
 div h1 {
+    position: relative;
+    left: 5%;
     letter-spacing: 25px;
 }
 
