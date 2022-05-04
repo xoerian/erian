@@ -27,6 +27,7 @@
         filter: grayscale(100);
         transform: scale(1);
         transition: all ease-in-out 1s;
+        cursor: pointer;
     }
     
     .main img:hover {
