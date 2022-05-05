@@ -95,7 +95,7 @@ img {
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 60%;
+    top: 60.2%;
     left: 60%;
     transform: translateY(0);
     transition: all ease-in-out .4s;
@@ -113,7 +113,7 @@ img {
         height: 667;
         position: fixed;
         display: inline-block;
-        z-index: 10;
+        z-index: 1;
         background-color: transparent;
     }
     .about-txt {
@@ -132,16 +132,19 @@ img {
         position: absolute;
         top: 65%;
         left: 20%;
+        z-index: 2;
     }
     .inbox {
         position: absolute;
         top: 65%;
         left: 45%;
+        z-index: 2;
     }
     .giftbox {
         position: absolute;
         top: 65%;
         left: 68%;
+        z-index: 2;
     }
 }
 
@@ -152,7 +155,7 @@ img {
         height: 800px;
         position: fixed;
         display: inline-block;
-        z-index: 10;
+        z-index: 1;
         background-color: transparent;
     }
     .about-txt {
@@ -172,21 +175,17 @@ img {
         position: absolute;
         top: 50%;
         left: 20%;
+        z-index: 2;
     }
     .inbox {
         top: 50%;
         left: 45%;
+        z-index: 2;
     }
     .giftbox {
         position: absolute;
         top: 50%;
         left: 68%;
+        z-index: 2;
     }
 }
-
-
-/* DO THE MEDIA AGAIN BUT FOR IPHONE X 
- - LONG INDENT SPACE BETWEEN TXT AND SOCIALS*/
-
-
-/*add a light/dark mode to the about page!*/
