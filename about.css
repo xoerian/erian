@@ -1,0 +1,111 @@
+* {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+div.about-txt {
+    position: absolute;
+    top: 25%;
+}
+
+.about-txt h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-txt p {
+    letter-spacing: 1px;
+}
+
+.socials {
+    position: absolute;
+    top: 50%;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border-style: 0;
+    filter: invert(1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 38%;
+    border: none;
+    transform: translateY(0);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    transform: translateY(-10px);
+}
+
+.inbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 49%;
+    transform: translateY(0);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.inbox:hover {
+    transform: translateY(-10px);
+}
+
+.giftbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 60%;
+    transform: translateY(0);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.giftbox:hover {
+    transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 500px) {
+    /* FOR MOBILE*/
+    .twitter {
+        position: absolute;
+        top: 60%;
+        left: 20%;
+    }
+    .inbox {
+        position: absolute;
+        top: 60%;
+        left: 45%;
+    }
+    .giftbox {
+        position: absolute;
+        top: 60%;
+        left: 65%;
+    }
+}
