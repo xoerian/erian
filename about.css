@@ -1,135 +1,192 @@
- * {
-     font-family: 'Alfa Slab One', cursive;
-     background-color: rgb(15, 15, 15);
-     color: rgb(255, 255, 255);
- }
- 
- body {
-     display: flex;
-     margin: 0;
-     padding: 0;
-     justify-content: center;
-     text-align: center;
- }
- 
- div.about-txt {
-     position: absolute;
-     top: 25%;
- }
- 
- .about-txt h2 {
-     text-transform: uppercase;
-     letter-spacing: 3px;
- }
- 
- .about-txt p {
-     letter-spacing: 1px;
- }
- 
- .socials {
-     position: absolute;
-     top: 50%;
- }
- 
- img {
-     margin: 0;
-     padding: 0;
-     border-style: 0;
-     filter: invert(1);
-     -webkit-background-clip: text;
-     -moz-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     -moz-text-fill-color: transparent;
- }
- 
- .twitter {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: fixed;
-     top: 60%;
-     left: 38%;
-     border: none;
-     transform: translateY(0);
-     transition: all ease-in-out .4s;
-     cursor: pointer;
- }
- 
- .twitter:hover {
-     transform: translateY(-10px);
- }
- 
- .inbox {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: fixed;
-     top: 60%;
-     left: 49%;
-     transform: translateY(0);
-     transition: all ease-in-out .4s;
-     cursor: pointer;
- }
- 
- .inbox:hover {
-     transform: translateY(-10px);
- }
- 
- .giftbox {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     position: fixed;
-     top: 60%;
-     left: 60%;
-     transform: translateY(0);
-     transition: all ease-in-out .4s;
-     cursor: pointer;
- }
- 
- .giftbox:hover {
-     transform: translateY(-10px);
- }
- 
- @media only screen and (max-width: 375px) {
-     /*FOR iPHONE 6-8*/
-     .about-txt p {
-         text-align: center;
-     }
-     .twitter {
-         position: absolute;
-         top: 65%;
-         left: 20%;
-     }
-     .inbox {
-         position: absolute;
-         top: 65%;
-         left: 45%;
-     }
-     .giftbox {
-         position: absolute;
-         top: 65%;
-         left: 68%;
-     }
- }
- 
- @media only screen and (max-width: 500px) and (min-width: 390px) {
-     /*FOR iPHONE 8++*/
-     .twitter {
-         position: absolute;
-         top: 50%;
-         left: 20%;
-     }
-     .inbox {
-         top: 50%;
-         left: 45%;
-     }
-     .giftbox {
-         position: absolute;
-         top: 50%;
-         left: 68%;
-     }
- }
- /* DO THE MEDIA AGAIN BUT FOR IPHONE X 
+* {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.border {
+    margin: 0;
+    padding: 0px;
+    width: 1280px;
+    height: 600px;
+    border-radius: 10px;
+    border-style: solid;
+    position: fixed;
+    top: 5%;
+}
+
+div.about-txt {
+    position: absolute;
+    top: 25%;
+}
+
+.about-txt h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.about-txt p {
+    letter-spacing: 1px;
+    white-space: normal;
+    max-width: 30%;
+    position: relative;
+    left: 35%;
+}
+
+.socials {
+    position: absolute;
+    top: 50%;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border-style: 0;
+    filter: invert(1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 38%;
+    border: none;
+    transform: translateY(0);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    transform: translateY(-10px);
+}
+
+.inbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 49%;
+    transform: translateY(0);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.inbox:hover {
+    transform: translateY(-10px);
+}
+
+.giftbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 60%;
+    left: 60%;
+    transform: translateY(0);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+.giftbox:hover {
+    transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 375px) {
+    /*FOR iPHONE 6-8*/
+    .border {
+        width: 330px;
+        height: 667;
+        position: fixed;
+        display: inline-block;
+        z-index: 10;
+        background-color: transparent;
+    }
+    .about-txt {
+        margin: 0;
+        padding: 0;
+    }
+    .about-txt p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        max-width: 70%;
+        position: relative;
+        left: 15%;
+    }
+    .twitter {
+        position: absolute;
+        top: 65%;
+        left: 20%;
+    }
+    .inbox {
+        position: absolute;
+        top: 65%;
+        left: 45%;
+    }
+    .giftbox {
+        position: absolute;
+        top: 65%;
+        left: 68%;
+    }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 390px) {
+    /*FOR iPHONE 8++*/
+    .border {
+        width: 380px;
+        height: 800px;
+        position: fixed;
+        display: inline-block;
+        z-index: 10;
+        background-color: transparent;
+    }
+    .about-txt {
+        margin: 0;
+        padding: 0;
+    }
+    .about-txt p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        max-width: 70%;
+        max-height: 80%;
+        position: relative;
+        left: 15%;
+    }
+    .twitter {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+    }
+    .inbox {
+        top: 50%;
+        left: 45%;
+    }
+    .giftbox {
+        position: absolute;
+        top: 50%;
+        left: 68%;
+    }
+}
+
+
+/* DO THE MEDIA AGAIN BUT FOR IPHONE X 
  - LONG INDENT SPACE BETWEEN TXT AND SOCIALS*/
- /*add a light/dark mode to the about page!*/
+
+
+/*add a light/dark mode to the about page!*/
