@@ -57,7 +57,7 @@ img {
     -moz-text-fill-color: transparent;
 }
 
-.twitter {
+.instagram {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ img {
     cursor: pointer;
 }
 
-.twitter:hover {
+.instagram:hover {
     transform: translateY(-10px);
 }
 
@@ -128,7 +128,7 @@ img {
         position: relative;
         left: 15%;
     }
-    .twitter {
+    .instagram {
         position: absolute;
         top: 65%;
         left: 20%;
@@ -168,7 +168,7 @@ img {
         position: relative;
         left: 15%;
     }
-    .twitter {
+    .instagram {
         position: absolute;
         top: 50%;
         left: 20%;
