@@ -142,9 +142,8 @@ img {
     /*FOR iPHONE 6-8*/
     .border {
         width: 330px;
-        height: 667;
+        height: 667px;
         position: fixed;
-        display: inline-block;
         z-index: 1;
         background-color: transparent;
     }
@@ -180,7 +179,7 @@ img {
     }
     .memoji {
         position: absolute;
-        top: 80%;
+        top: 75%;
         left: 16%;
     }
 }
@@ -188,10 +187,9 @@ img {
 @media only screen and (max-width: 500px) and (min-width: 390px) {
     /*FOR iPHONE 8++*/
     .border {
-        width: 380px;
-        height: 800px;
+        width: 350px;
+        height: 825px;
         position: fixed;
-        display: inline-block;
         z-index: 1;
         background-color: transparent;
     }
