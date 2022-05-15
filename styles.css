@@ -121,3 +121,7 @@ body {
     filter: invert(1);
     justify-content: space-around;
 }
+
+.github {}
+
+.github:hover {}
