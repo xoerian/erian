@@ -109,6 +109,9 @@ body {
     image-rendering: crisp-edges;
 }
 
+
+/* ADD ANIMATION SLIDES TO MEMOJIS! with BLURS -MOZ-FILTER-*/
+
 .quick__links {
     margin: 2rem;
     padding: 1.5rem;
@@ -122,6 +125,50 @@ body {
     justify-content: space-around;
 }
 
-.github {}
+.github__icon {
+    transform: translateY(0px);
+    transition: all cubic-bezier(0, .54, 1, 1).4s;
+}
 
-.github:hover {}
+.github__icon:hover {
+    transform: translateY(-10px);
+}
+
+.twitter__icon {
+    transform: translateY(0px);
+    transition: all cubic-bezier(0, .54, 1, 1).4s;
+}
+
+.twitter__icon:hover {
+    transform: translateY(-10px);
+}
+
+.paypal__icon {
+    transform: translateY(0px);
+    transition: all cubic-bezier(0, .54, 1, 1).4s;
+}
+
+.paypal__icon:hover {
+    transform: translateY(-10px);
+}
+
+.discord__icon {
+    transform: translateY(0px);
+    transition: all cubic-bezier(0, .54, 1, 1).4s;
+}
+
+.discord__icon:hover {
+    transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: flexbox;
+        align-self: baseline;
+        width: min-content;
+    }
+    .quick__links {
+        margin: auto;
+        margin-block: 1rem;
+    }
+}
