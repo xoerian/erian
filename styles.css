@@ -113,7 +113,8 @@ body {
 /* ADD ANIMATION SLIDES TO MEMOJIS! with BLURS -MOZ-FILTER-*/
 
 .quick__links {
-    margin: 2rem;
+    margin: auto;
+    margin-block: 1.5rem;
     padding: 1.5rem;
     display: flex;
     justify-content: center;
