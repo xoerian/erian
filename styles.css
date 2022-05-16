@@ -172,7 +172,7 @@ body {
     }
     .quick__links {
         margin: auto;
-        margin-block: 1rem;
-        height: 20px;
+        margin-block: 2rem;
+        height: 30px;
     }
 }
