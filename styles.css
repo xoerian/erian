@@ -166,9 +166,12 @@ body {
         display: flexbox;
         align-self: baseline;
         width: min-content;
+        margin: auto;
+        padding: auto;
     }
     .quick__links {
         margin: auto;
         margin-block: 1rem;
+        height: 20px;
     }
 }
