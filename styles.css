@@ -79,20 +79,6 @@ body {
     letter-spacing: .5px;
 }
 
-.forms {
-    margin: .5rem;
-    padding: .5rem;
-    border-radius: var(--border-radius);
-    border-color: var(--color-lightest);
-    border-style: solid;
-    outline-color: none;
-}
-
-.form__name {
-    border-radius: var(--border-radius);
-    border-style: none;
-}
-
 .memoji {
     margin: .5rem;
     padding: .5rem;
