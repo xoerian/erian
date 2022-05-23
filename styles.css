@@ -95,9 +95,6 @@ body {
     image-rendering: crisp-edges;
 }
 
-
-/* ADD ANIMATION SLIDES TO MEMOJIS! with BLURS -MOZ-FILTER-*/
-
 .quick__links {
     margin: auto;
     margin-block: 1.5rem;
@@ -146,6 +143,15 @@ body {
 
 .discord__icon:hover {
     transform: translateY(-10px);
+}
+
+.time {
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    color: var(--color-dark);
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 500px) {
