@@ -8,7 +8,7 @@ const updateTime = function() {
 
         const now = luxon.DateTime.now()
 
-        output.innerHTML = now.toFormat("H:mm a")
+        output.innerHTML = now.toFormat("h:mm a")
     })
 }
 
