@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>me</title>
+    <title>About me</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
-
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 </head>
 
 <body>
@@ -21,10 +21,20 @@
                 <div class="title">About Me</div>
                 <div class="erian__contact">erian.contact</div>
             </div>
-            <div class="erian__text-p">Hey, im erian!
-                <br>passionate about web development,
-                <br> finance & bussniess!
+            <div class="erian__text-p">Hey, I'm Erian
+                <p class="typed"></p>
             </div>
+            <script>
+                new TypeIt('.typed', {
+                    speed: 90,
+                    startDelay: 900,
+                    waitUntilVisible: true,
+                })
+                .type('passionate about web deelopment, finance & business\n')
+                .move(-28)
+                .type('v')
+                .go();
+            </script>
             <div class="container_img ">
                 <div class="memoji">
                     <img src="/imgs/memoji.png " width="150px" class="memoji_one">
